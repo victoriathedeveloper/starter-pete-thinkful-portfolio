@@ -18,10 +18,11 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+ text-align:center;
 }
 
 /* Containers */
+
 div {
   background-color: #eae2b7;
   margin: auto;
@@ -35,6 +36,43 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+.firstsection {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+}
+
+.text {
+  text-align: center;
+ 
+}
+
+.body{
+  text-align: left;
+  
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* align horizontal */
+}
+.descripton{
+  font-size: 14px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /* Paragraphs */
